@@ -11,6 +11,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="text.css">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 
@@ -18,36 +25,53 @@
 =================================================================================================
 ==============================================================================================-->
 <header>
-<div class="wrapper style1">
-  <nav>
-    <div style="background-color: #333333; text-align: center; padding: 0px;">
-      <ul style="list-style-type: none; padding: 0; margin: 0; display: inline-block;">
-        <li><a href="#About">About</a></li>
-        <li><a href="#Experiences">Experiences</a></li>
-        <li><a href="#Education">Education</a></li>
-        <li><a href="#Awards">Awards</a></li>
-        <li><a href="#Contact">Contact</a></li>
-        <li><a href="https://github.com/viet-doan" target="_blank" >GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/viet-doan-vqd/" target="_blank" >LinkedIn</a></li>
+  <!-- Links (sit on top) -->
+  <nav id="nav">
+    <!-- <ul style="list-style-type: none; padding: 0; margin: 0; display: inline-block;"> -->
+    <div class="navtest">
+      <ul class="container navigation">
+        <div class="text topbar">
+          <!-- <li><a href="#About" class="w3-button w3-block w3-gray w3-hover-color-darkgray">About</a></li> -->
+          <li><a href="#About">About</a></li>
+          <li><a href="#Experiences">Experiences</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#Awards">Awards</a></li>
+          <li><a href="#Contact">Contact</a></li>
+          <!-- <li><a href="https://github.com/viet-doan" target="_blank" >GitHub</a></li> -->
+          <!-- <li><a href="https://www.linkedin.com/in/viet-doan-vqd/" target="_blank" >LinkedIn</a></li> -->
+          <li><a href="https://github.com/viet-doan" class="w3-bar-item w3-button w3-large" style="color:#151515"><i class="fa fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/viet-doan-vqd/" class="w3-bar-item w3-button w3-large" style="color:#0072b1"><i class="fa fa-linkedin"></i></a></li>
+      
+          <!--<a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a> -->
+        </div>
       </ul>
     </div>
   </nav>
-
-
-
-  <h1 id="About"><a style="color:#111111" href="https://viet-doan.com/">Viet Doan</a></h1>
-  <h2  class="abouttitle">About</h2>
-  <div class="aboutbox">
-    <pre style="margin-top:0px; background-color:white;">
-      I am a student at the University of Melbourne in the Bachelor of Science (expected to graduated
-      by November 2024). Currently pursuing the major of Computing and Software Systems. Throughout my
-      coursework, I have experiences with Python, C, Java, MySQL and Git. I am also currently learning
-      HTML, CSS and JavaScript to build new skills in web development. I am eager to learn new
-      skills and exited to apply my knowledge within my work.
-    </pre>
-  </div>
-</div>
 </header>
+
+  
+
+
+
+
+
+<!--=============================================================================================
+=======================================About Sections============================================
+==============================================================================================-->
+<div class="wrapper style1 first">
+  <article class="container" id="top">
+    <h1 class="name" id="About"><a style="  color:#181818; text-decoration: none;" href="https://viet-doan.com/">Viet Doan</a></h1>
+    
+    <h2 class="about">About</h2>
+    <div class="text body">
+I am a student at the University of Melbourne in the Bachelor of Science (expected to graduated
+by November 2024). Currently pursuing the major of Computing and Software Systems. Throughout my
+coursework, I have experiences with Python, C, Java, MySQL and Git. I am also currently learning
+HTML, CSS and JavaScript to build new skills in web development. I am eager to learn new
+skills and exited to apply my knowledge within my work.
+    </div>
+  </article>
+</div>
 
 
 <!--=============================================================================================
@@ -91,15 +115,17 @@
 
 <div class="wrapper style2">
   <hr>
-  <h2 id="Experiences">Experiences</h2>
-  <h6><strong>Brunetti Oro [Jan, 2022 - Sep, 2023]</strong></h6>
+  <h2 class="V" id="Experiences">Experiences</h2>
+  <h6 class="V"><a href="https://brunettioro.com.au/" target="_blank">Brunetti Oro</a> [Jan, 2022 - Sep, 2023]</h6>
     <ul style="list-style-type:circle; padding-left: 120px; margin: 0; display: inline-block;">
-      <li> Analysed customer's need and concerns, and responded promptly with empathy and professionalism to ensure a positive experience.
-        <br> Managed escalated issues by promptly involving the personnel to achieve optimal customer satisfaction</li>
-      <li> Managed to excel in the art of coffee preparation, crafting and serving a diverse range of premium coffee beverages, showcasing a
-        <br> deep understanding of brewing and presentation techniques</li>
-      <li> Manage inventory of alcoholic beverages and general supplies, palcing orders as necessary to ensure adequate stock levels and optimal
-        <br> customer satisfaction</li>
+      <div class="text body">
+        <li> Analysed customer's need and concerns, and responded promptly with empathy and professionalism to ensure a positive experience.
+          <br> Managed escalated issues by promptly involving the personnel to achieve optimal customer satisfaction</li>
+        <li> Managed to excel in the art of coffee preparation, crafting and serving a diverse range of premium coffee beverages, showcasing a
+          <br> deep understanding of brewing and presentation techniques</li>
+        <li> Manage inventory of alcoholic beverages and general supplies, palcing orders as necessary to ensure adequate stock levels and optimal
+          <br> customer satisfaction</li>
+      </div>
     </ul>
     <br>
     <br>
@@ -108,20 +134,25 @@
 
 <div class="wrapper style2">
   <hr>
-  <h2 id="Education">Education</h2>
-  <h6><strong>University of Melbourne [2020-2024]</strong></h6>
-    <ul style="list-style-type:circle; padding-left: 120px; margin: 0; display: grid;">
-      <li> Course: Bachelor of Science </li>
-      <li> Major : Computing and Software System </li>
+  <h2 class="V" id="Education">Education</h2>
+  <h6 class="V"><a href="https://www.unimelb.edu.au/" target="_blank">University of Melbourne</a> [2020-2024]</h6>
+    <ul style="list-style-type:circle; padding-left: 120px; margin: 0; display: inline-block;">
+      <div class="text body">
+        <li> Course: Bachelor of Science </li> <br>
+        <li> Major : Computing and Software System </li>
+      </div>
     </ul>
 
-  <h6><strong>Kew High School [2015-2020]</strong></h6>
-    <ul style="list-style-type:circle; padding-left: 120px; margin: 0; display: grid;">
-      <li> High School Diploma </li>
-      <li> Awarded Top Design 2020 (VCE Season of Excellence) </li>
+  <h6 class="V"><a href="https://www.kew.vic.edu.au/" target="_blank">Kew High School</a> [2015-2020]</h6>
+    <ul style="list-style-type:circle; padding-left: 120px; margin: 0; display: inline-block;">
+      <div class="text body">
+        <li> High School Diploma </li><br>
+        <li> Awarded <a class="body" href="https://museumsvictoria.com.au/melbournemuseum/learning/top-designs-2021/" target="_blank">Top Design 2021</a> (VCE Season of Excellence) </li>
+      </div>
     </ul>
   
-  <br> 
+  <br>
+  <br>
 </div>
 
 <!--=============================================================================================
@@ -130,12 +161,13 @@
 <!--==================================PDF POSTER============================================== -->
 <div class="wrapper style2">
   <hr>
-  <h2 id="Awards">Awards</h2>
-  <h6><strong>Top Design 2020</strong></h6>
+  <h2 class="V" id="Awards">Awards</h2>
+  <h6 class="V">Top Design [2021]</h6>
     <ul style="list-style-type:circle; padding-left:120px; padding-top:0; margin:0; display:grid;">
-      <li> One of only 17 Visual Communication Design students selected for Top Design
-	 2020 exhibition </li>
-      <li> Showcasing work during the VCE Sesason of Excellence in the Melbourne Museum </li>
+      <div class="text body">
+        <li> One of only 17 Visual Communication Design students selected for Top Design 2020 exhibition </li><br>
+        <li> Showcasing work during the VCE Sesason of Excellence in the Melbourne Museum </li>
+      </div>
     </ul>
 
 
@@ -160,7 +192,7 @@
   
     <script>
       function changeSrc(src) {
-          document.getElementsByName('iframe_kc')[0].src = src;  
+          document.getElementsByName('iframe_kc')[0].src = src;
       }
     </script>
   
@@ -178,6 +210,16 @@
     <a href="https://www.linkedin.com/in/viet-doan-vqd/" target= "_blank" style="color:deepSkyBlue; margin-left: 140px; margin-top:-20px; text-decoration:underline;">www.viet-doan.com </a>
     <a href="mailto:vietdoan.vqd@proton.me" target= "_blank" style="color:deepSkyBlue; margin-left: 140px; margin-top:-20px; text-decoration:underline;">vietdoan.vqd@proton.me </a>
     <p style="color:azure"> Phone: +61 466 280 900</p>
-</footer>
 
-</html>
+
+    <!-- TESTING
+    <script src="https://kit.fontawesome.com/3bc2a1e6ea.js" crossorigin="anonymous"></script>    
+    <a href="https://www.linkedin.com/in/viet-doan-vqd/"><i class="fa-brands fa-linkedin"></i></a>
+    -->
+
+    <ul style="list-style-type: none; padding: 0; margin: 0; display: inline-block;">
+      <li><a href="https://github.com/viet-doan" class="w3-bar-item w3-button w3-large" style="color:#151515"><i class="fa fa-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/viet-doan-vqd/" class="w3-bar-item w3-button w3-large" style="color:#0072b1"><i class="fa fa-linkedin"></i></a></li>
+    </ul>
+  
+</footer>
