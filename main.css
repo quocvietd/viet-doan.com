@@ -1,7 +1,7 @@
 .center {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    align-items: center;
   }
   
   .centered-icon {
@@ -337,12 +337,12 @@
     /* Wrappers */
   
       .wrapper {
-        padding: 1em 0 1em 0;
+        padding: 4em 0 4em 0;
         text-align: center;
       }
   
         .wrapper.first {
-          padding-top: 2em;
+          padding-top: 4em;
         }
   
     /* Nav */
