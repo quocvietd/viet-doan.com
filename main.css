@@ -30,6 +30,7 @@ button.koicorner {
     background-color: #b8b8b8;
     color: #242424;
     box-shadow: 4 4px 5px #b8b8b8;
+    cursor: pointer;
   }
 
 
