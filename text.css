@@ -55,23 +55,19 @@ h2.about {
 
 h2.V {
   color: #303030;
-  margin-left: 80px;
   margin-bottom: 2px;
   font-family: Helvetica;
   font-size: 20px;
   font-weight: 600;
-  padding-left:40px;
 }
 
 
 h6.V {
   color: #303030;
-  margin-left: 80px;
   margin-bottom: 2px;
   font-family: Helvetica;
   font-size: 16px;
   font-weight: 500;
-  padding-left:40px;
 }
 .text {
   color:#999;
@@ -167,6 +163,22 @@ h2.abouttitle{
   color: #111111;
   font-family: Helvetica;
   padding: 0px;
+}
+
+ul.subsection {
+  justify-content: center;
+  list-style-type:circle;
+  list-style-position: inside;
+  display: grid;
+  text-align: left;
+}
+
+li.subsection1 {
+  width: 32em;
+}
+
+li.subsection2 {
+  width: 50em;
 }
 
 footer {
