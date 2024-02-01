@@ -17,20 +17,53 @@
     align-items: center;  
   }
 /*********************************************************/
-/*                        Buttons                        */
+/*                      Koi Corner                       */
 /*********************************************************/
-button.koicorner {
+button.kc-button {
   background-color: #282828;
   color: #fff;
-  border-radius: 36px;
+  border-radius: 48px;
   box-shadow: 4 4px 5px #242424;
+  margin: 0.5em;
 }
 
-  button.koicorner:hover {
+  button.kc-button:hover {
     background-color: #b8b8b8;
     color: #242424;
     box-shadow: 4 4px 5px #b8b8b8;
     cursor: pointer;
+  }
+
+  ul.kc-list {
+    list-style-type:none;
+    display: grid;
+    position: absolute;
+    right: 24em;
+    text-align:left;
+    padding: 4em;
+  }
+
+  div.kc-buttonstyle {
+    text-align: right;
+    position: absolute right;
+  }
+
+  .kc-frame {
+    border: none;
+    height: 592px;
+    width: 380px;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+
+  iframe.kc-frame {
+    position: absolute;
+    left: 36%;
+  }
+
+  .kc-container {
+    text-align: center;
   }
 
 
