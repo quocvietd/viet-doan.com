@@ -81,6 +81,7 @@ button.kc-button {
   justify-content: center;
   align-items: center;  
   left: 0;
+  right:0;
   top: 0;
   width: 100%;
   z-index: 10000;
@@ -131,27 +132,7 @@ button.kc-button {
   margin-left: auto;
   margin-right: auto;
   margin-top: 0;
-}
 
-.container.\31 25\25 {
-  width: 100%;
-  max-width: 1200px;
-  min-width: 960px;
-}
-
-.container.\37 5\25 {
-  width: 720px;
-}
-
-.container.\35 0\25 {
-  width: 480px;
-}
-
-.container.\32 5\25 {
-  width: 240px;
-}
-
-.container {
   width: 960px;
 }
 
@@ -160,83 +141,18 @@ button.kc-button {
     justify-content: center;
     align-items: center;
   }
-@media screen and (min-width: 737px) {
 
-  .container.\31 25\25 {
-    width: 100%;
-    max-width: 1500px;
-    min-width: 1200px;
+  .container.intro {
+    display: flex;
+    justify-content: content;
+    align-items: center;
+
+    border-width: 2px;
+    border-color: red;
+    
+
   }
 
-  .container.\37 5\25 {
-    width: 900px;
-  }
-
-  .container.\35 0\25 {
-    width: 600px;
-  }
-
-  .container.\32 5\25 {
-    width: 300px;
-  }
-
-  .container {
-    width: 1200px;
-  }
-
-}
-
-@media screen and (min-width: 737px) and (max-width: 1200px) {
-
-  .container.\31 25\25 {
-    width: 100%;
-    max-width: 1200px;
-    min-width: 960px;
-  }
-
-  .container.\37 5\25 {
-    width: 720px;
-  }
-
-  .container.\35 0\25 {
-    width: 480px;
-  }
-
-  .container.\32 5\25 {
-    width: 240px;
-  }
-
-  .container {
-    width: 960px;
-  }
-
-}
-
-@media screen and (max-width: 736px) {
-
-  .container.\31 25\25 {
-    width: 100%;
-    max-width: 125%;
-    min-width: 100%;
-  }
-
-  .container.\37 5\25 {
-    width: 75%;
-  }
-
-  .container.\35 0\25 {
-    width: 50%;
-  }
-
-  .container.\32 5\25 {
-    width: 25%;
-  }
-
-  .container {
-    width: 100% !important;
-  }
-
-}
 /*********************************************************/
 /*********************************************************/
 
@@ -245,92 +161,47 @@ button.kc-button {
 /*********************************************************/
 /*                        Wrapper                        */
 /*********************************************************/
-
 .wrapper {
   background-color: #E0D7C8;
-  background-image:url('documents/Textured Background.png');
-  box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  background-image:url('documents/texture0.png');
+  background-size: 8%;
+  background-repeat: repeat;
+  box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.1), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.2);
+
+  padding: 4em 0 4em 0;
+  text-align: center;
 }
-    .wrapper.first {
-            box-shadow: none;
-        }
+  .wrapper.about {
+    background-image:none;
+    background-color: #fff;
+    padding-top: 6em;
+  }
 
-        .wrapper.style1 {
-            background-image: none;
-            background-color: #fff;
-        }
+  .wrapper.style1 {
+    background-image: none;
+    background-color: #f2f2f2;
+  }
 
-        .wrapper.style2 {
-            background-color: #fafafa;
-            /*text-shadow: 1px 1px 0px #fff;*/
-        }
+  .wrapper.style2 {
+    background-color: #fafafa;
+  }
 
-        .wrapper.style3 {
-            background-color: #f4f4f4;
-            text-shadow: 1px 1px 0px #fff;
-        }
+  .wrapper.style3 {
+    background-color: #f4f4f4;
+    text-shadow: 1px 1px 0px #fff;
+  }
 
-        .wrapper.style4 {
-            background-color: #303030;
-            color: #999;
-            text-shadow: -1px -1px 0px #181818;
-        }
+  .wrapper.footer {
+    background-color: #303030;
+    color: #999;
+    text-shadow: -1px -1px 0px #181818;
+  }
     
-        .wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
-                color: #fff;
-            }
+    .wrapper.style4 h1, .wrapper.style4 h2, .wrapper.style4 h3, .wrapper.style4 h4, .wrapper.style4 h5, .wrapper.style4 h6 {
+      color: #fff;
+    }
 /*********************************************************/
 /*********************************************************/    
-
-
-
-/*********************************************************/
-/*                        Desktop                        */
-/*********************************************************/
-
-@media screen and (min-width: 737px) {
-
-  /* Basic */
-
-    body, input, textarea, select {
-      font-size: 13pt;
-    }
-
-    h1 {
-      font-size: 3.25em;
-      letter-spacing: -0.025em;
-    }
-
-    h2 {
-      font-size: 2em;
-      letter-spacing: -0.015em;
-    }
-
-    h3 {
-      font-size: 1.5em;
-      letter-spacing: -0.015em;
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-      margin: 0 0 0.75em 0;
-    }
-
-    header {
-      margin: 0 0 3em 0;
-    }
-
-      header > p {
-        font-size: 1.25em;
-        margin: 0;
-      }
-
-    footer {
-      margin: 3em 0 0 0;
-    }
-
-      footer > p {
-        font-size: 1.25em;
-      }
 
   /* Form */
 
@@ -388,17 +259,6 @@ button.kc-button {
         width: auto;
       }
 
-  /* Wrappers */
-
-    .wrapper {
-      padding: 4em 0 4em 0;
-      text-align: center;
-    }
-
-      .wrapper.first {
-        padding-top: 4em;
-      }
-
   /* Nav */
 
     #nav a {
@@ -445,6 +305,5 @@ button.kc-button {
     #contact footer {
       font-size: 0.9em;
     }
-}
 /*********************************************************/
 /*********************************************************/
