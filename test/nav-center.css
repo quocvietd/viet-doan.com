@@ -1,9 +1,13 @@
 /* Containers */
 .container {
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 0;
 }
     .container.navigation {
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .container.intro {
@@ -14,12 +18,18 @@
 
 /* Navigation Bar */
 #nav {
-    background-color: #2a2a2a;
+    background-color:#2a2a2a;
+    display: flex;
     position: fixed;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
     top: 0;
     width: 100%;
+
     z-index: 10000;
-    cursor: default;
+    overflow: auto;
 }
 
     #nav ul {
@@ -28,27 +38,15 @@
 
     #nav li {
         display: inline-block;
-
+        width: auto;
     }
 
     #nav a {
-        /*
         position: relative;
         display: block;
         color: #ffffff;
         text-decoration: none;
         outline: 0;
-        */
-
-        float: left;
-        color: #ffffff;
-        text-align: center;
-        padding: 0.2em 1em 0.2em 1em;
-        margin: 0.6em 0.2em 0.6em 0.2em;
-        text-decoration: none;
-        font-size: 18px;
-        font-weight: 600;
-        border-radius: 8px;
         
         /* EDIT later
         -moz-transition: background-color .2s ease-in-out;
@@ -56,18 +54,12 @@
         -ms-transition: background-color .2s ease-in-out;
         transition: background-color .2s ease-in-out;
         */
-        
-        /*
+
         padding: 0.2em 1em 0.2em 1em;
         margin: 0.6em 0.2em 0.6em 0.2em;
         font-weight: 600;
         border-radius: 8px;
         font-size: 18px;
-        */
-    }
-
-    #nav a.right-link {
-        float: right
     }
 
     #nav a:hover {
