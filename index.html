@@ -13,6 +13,8 @@
   <link rel="stylesheet" type="text/css" href="main.css">
   <link rel="stylesheet" type="text/css" href="text.css">
 
+  <link rel="stylesheet" type="text/css" href="kc-layout.css">
+
   <script src="koicorner.js"></script>
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -59,7 +61,7 @@ skills and exited to apply my knowledge within my work.
 
 
 <!-- Experiences Section -->
-<div class="wrapper style2"id="Experiences">
+<div class="wrapper style2" id="Experiences">
   <h2 class="V" >Experiences</h2>
   <h6 class="V"><a href="https://brunettioro.com.au/" target="_blank">Brunetti Oro</a> [Jan, 2022 - Sep, 2023]</h6>
     <ul class="text body" style="list-style-type:circle; margin-left: 120px; display: inline-block;">
@@ -115,21 +117,61 @@ skills and exited to apply my knowledge within my work.
     
     <br>
     <div style="text-align:center;">
-      <button class="kc-button" margin-left:10px; onclick="changeSrc('documents/KC_Poster.pdf')">Advertisement Poster</button>
-      <button class="kc-button" style="margin-left:10px;" onclick="changeSrc('documents/KC_Poster_Structures.pdf')">Bottle Structures</button>
-      <button class="kc-button" style="margin-left:10px;" onclick="changeSrc('documents/KC_Poster_Components.pdf')">Bottle Components</button>
-      <button class="kc-button" style="margin-left:10px;" onclick="changeSrc('documents/KC_Orthogonal.pdf')">Orthogonal Drawing</button>
-      <button class="kc-button" style="margin-left:10px;" onclick="changeSrc('documents/KC_LogoGuidelines.pdf')">Logo Guidelines</button>
+      <button class="kc-button" onclick="changeSrc('documents/KC_Poster.pdf')">Advertisement Poster</button>
+      <button class="kc-button" onclick="changeSrc('documents/KC_Poster_Structures.pdf')">Bottle Structures</button>
+      <button class="kc-button" onclick="changeSrc('documents/KC_Poster_Components.pdf')">Bottle Components</button>
+      <button class="kc-button" onclick="changeSrc('documents/KC_Orthogonal.pdf')">Orthogonal Drawing</button>
+      <button class="kc-button" onclick="changeSrc('documents/KC_LogoGuidelines.pdf')">Logo Guidelines</button>
     </div>
     <br>
     <br>
   
-    <script>
-      function changeSrc(src) {
-          document.getElementsByName('iframe_kc')[0].src = src;
-      }
-    </script>
+
   
+
+
+
+
+  <!--  Koi Corner Posters  -->
+  <!--
+  <div class="wrapper style2" id="Awards">
+    <h2 class="V">Awards</h2>
+    <h6 class="V"><a href="https://museumsvictoria.com.au/melbournemuseum/learning/top-designs-2021/" target="_blank"> Top Design 2021</a></h6>
+      <ul class="text body subsection">
+          <li class="subsection2"> One of only 17 Visual Communication Design students selected for Top Design 2020 exhibition </li>
+          <li class="subsection2"> Showcasing work during the VCE Sesason of Excellence in the Melbourne Museum </li>
+      </ul>
+      <a href="koicorner.html" target="_self">Click Here to View Gallery</a>
+  </div>
+  
+  <div class="clearfix">
+    <div class="column menu">
+      <li><button class="kc-button2" onclick="changeLink('documents/KC_Poster.pdf')">Advertisement Poster</button></li>
+      <li><button class="kc-button2" onclick="changeLink('documents/KC_Poster_Structures.pdf')">Bottle Structures</button></li>
+      <li><button class="kc-button2" onclick="changeLink('documents/KC_Poster_Components.pdf')">Bottle Components</button></li>
+      <li><button class="kc-button2" onclick="changeLink('documents/KC_Orthogonal.pdf')">Orthogonal Drawing</button></li>
+      <li><button class="kc-button2" onclick="changeLink('documents/KC_LogoGuidelines.pdf')">Logo Guidelines</button></li>
+    </div>
+  
+    <div class="column-right content">
+      <iframe src="documents/KC_Poster.pdf" loading="eager" name="iframe_kc2" style="border: none; height: 592px; width: 380px; max-width: 100%; max-height: 100%; display: inline-block;" title="Koi Corner"></iframe>
+    </div>
+  </div>
+
+  <script>
+    function changeLink(src) {
+        document.getElementsByName('iframe_kc2')[0].src = src;
+    }
+  </script>
+  -->
+  
+
+
+
+
+
+
+
     </div>
   </div>
   
