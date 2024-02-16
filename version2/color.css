@@ -1,3 +1,4 @@
+/*
 #nav {
     background-color: #282828;
 }
@@ -15,7 +16,7 @@
         background: #383838;
     }
 
-    #nav a.darkmode :hover{
+    #nav a.darkmode:hover{
         color: #000000 !important;
         background: #c7c7c7;
     }
@@ -26,3 +27,4 @@
 .darkmode.back-cover {
     background-color: #070707;
 }
+*/

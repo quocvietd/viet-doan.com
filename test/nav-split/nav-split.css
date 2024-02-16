@@ -1,0 +1,113 @@
+/* Containers */
+.container {
+    margin-top: 0;
+}
+    .container.navigation {
+        display: flex;
+    }
+
+    .container.intro {
+        margin: 4em 12em 4em 16em;
+    }
+
+
+
+/* Navigation Bar */
+#nav {
+    background-color: #2a2a2a;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    cursor: default;
+
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+    #nav ul {
+        margin-bottom: 0;
+    }
+
+    #nav li {
+        display: inline-block;
+
+    }
+
+    #nav a {
+        
+        position: relative;
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+        outline: 0;
+    }
+
+    #nav a.left-link {
+        float: left;
+    }
+    #nav a.right-link {
+        float: right;
+    }
+
+    #nav a:hover {
+        background: #3a3a3a;
+    }
+
+    #nav a.active:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 50%;
+        margin-left: -0.75em;
+        border-left: solid 0.75 transparent;
+        border-right: solid 0.75em transparent;
+        border-top: solid 0.6em #2a2a2a;
+        background: #4a4a4a;
+    }
+
+
+
+/**************************************************/
+
+.topnav {
+  display: fixed;   
+  overflow: auto;
+  padding: 0.2em 2em 0.2em 2em;
+  background-color: #282828;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.6em 0.8em;
+
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.topnav a:hover {
+  background-color: #4a4a4a;
+  color: #3a3a3a;
+  border-radius: 8px;
+  /*padding: 0.4em 1em 0.4em 1em;*/
+  /*margin: 0.6em 0.2em 0.6em 0.2em;*/
+}
+
+/* Create a right-aligned (split) link inside the navigation bar */
+.topnav a.split {
+  float: right;
+  background-color: #282828;
+  color: white;
+}
+/* Backwrap */
+.backwrap {
+    background-color: #ffffff;
+    background-image: url('documents/texture1.png');
+    background-size: 10%;
+    background-repeat: repeat;
+}
