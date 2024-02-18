@@ -76,38 +76,6 @@ h6.V {
   font-weight: 400;
 }
 
-/*
-  .text.head {
-    color:#303030;
-    font-size: 36px;
-    font-weight: 600;
-    margin-left: 40px;
-    padding-left: 40px;
-  }
-
-  .text.heading2 {
-    color: #303030;
-    margin-left: 40px;
-    margin-bottom: 2px;
-    font-family: Helvetica;
-    font-size: 18px;
-    font-weight: 600;
-    padding-left:40px;
-  }
-  */
-  /*
-  nav {
-    background-color: #282828;
-    text-align: center;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    z-index: 10000;
-    cursor: default;
-  }
-  */
-
   .text.topbar {
     /*background-color: #303030;*/
     color: white;
@@ -129,7 +97,9 @@ h6.V {
 /**********************************************************/
 
 
-li {
+#Experiences li,
+#Education li,
+#Awards li {
   float: left;
 }
 /*

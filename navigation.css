@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  position: relative;
+}
+
+#nav {
+  background-color: #282828;
+  position: fixed;
+  top: 0;
+}
+  #nav li {
+    list-style: none;
+  }
+
+  /* Headliner Name */
+  #nav .nav-name {
+    margin-left: 2em; /* Spaces from the left from the Name on the bar */
+    text-decoration: none;
+    color: #00b2e4;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 1.6em;
+    font-weight: 600;
+  }
+  
+  #nav .nav-bookmarks a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+  }
+
+  /* Bookmark Links  */
+  #nav .nav-bookmarks a:hover {
+    background-color: #3a3a3a;
+    padding: 0.4em 1em;
+    margin-left: -1em;  /* Preventing Jumps when hovered */
+    margin-right: -1em; /* Preventing Jumps when hovered */
+    border-radius: 0.5em;
+  }
+
+  /* Contact Button  */
+  #nav .nav-contact {
+    margin-right: 3em; /* Spaces from the left from the Name on the bar */
+    padding: 0.4em 1em;
+    border-radius: 1em;
+    background: #3a3a3a;
+
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+  }
+
+  #nav .nav-contact:hover {
+    background: #007494;
+  }
+
+/* General Bar */
+.nav-bar {
+  width: 100%;
+  height: 3.5em;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar .nav-bookmarks {
+  display: flex;
+  gap: 2.2em;
+}
+
+/* Menu Button  */
+.nav-bar .nav-menu {
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  display: none;
+}
+
+/* Dropdown Menu  */
+.dropdown-menu {
+  display: none;
+
+  position: absolute;
+  right: 40px;
+  top: 15px;
+  width: 12em;
+  height: 0em; /* Not visible when closed */
+
+  background: #3a3a3a;
+  border-radius: 8px;
+  border-width: 12px;
+  overflow: hidden;
+
+  /* transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+  transition: height 0.2s cubic-bezier(1, 1, 0.5, 1);
+}
+  /* Expandable */
+  .dropdown-menu.open {
+    height: 15em;
+  }
+
+.dropdown-menu li {
+  margin: 0.5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-menu li {
+  padding-top: 0.20em;
+  padding-bottom: 0.20em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+
+.dropdown-menu a:hover {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+
+  text-align: center;
+  background-color: #585858;
+  width: 70%;
+  padding: 0.2em 1em;
+  margin-top: -0.2em;     /* Preventing Jumps when hovered */
+  margin-bottom: -0.2em;  /* Preventing Jumps when hovered */
+  border-radius: 0.5em;
+}
+
+
+
+
+/* Menu (Responsive Design) */
+@media (max-width: 850px) {
+  .nav-bar .nav-bookmarks,
+  .nav-bar .nav-contact{
+    display: none;
+  }
+
+  .nav-bar .nav-menu {
+    display: block;
+    margin-right: 3em;
+    z-index: 10000;
+  }
+
+  .dropdown-menu {
+    display:block;
+  }
+}

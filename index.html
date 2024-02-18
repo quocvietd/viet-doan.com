@@ -12,6 +12,7 @@
 
   <link rel="stylesheet" type="text/css" href="main.css">
   <link rel="stylesheet" type="text/css" href="text.css">
+  <link rel="stylesheet" type="text/css" href="navigation.css">
 
   <link rel="stylesheet" type="text/css" href="kc-layout.css">
 
@@ -23,26 +24,77 @@
 
   <!-- Icons reference -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/3bc2a1e6ea.js" crossorigin="anonymous"></script> 
 
 
 </head>
 
 <!-- Navigation Bar -->
-<header>
-  <!-- Links (sit on top) -->
+<!-- <header>
   <nav id="nav">
     <ul class="container navigation">
         <li><a href="#About">About</a></li>
         <li><a href="#Experiences">Experiences</a></li>
         <li><a href="#Education">Education</a></li>
         <li><a href="#Awards">Awards</a></li>
-        <!--<li><a href="#Contact">Contact</a></li>  EDIT LATER-->
         <li><a href="https://github.com/viet-doan" target="_blank" class="w3-bar-item w3-button w3-large" style="color:#fdfdfd"><i class="fa fa-github"></i></a></li>
         <li><a href="https://www.linkedin.com/in/viet-doan-vqd/" target="_blank" class="w3-bar-item w3-button w3-large" style="color:#fdfdfd"><i class="fa fa-linkedin"></i></a></li>
-        <!--<a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a> -->
     </ul>
   </nav>
+</header> -->
+
+<!-- Navigation Bar  -->
+<header>
+  <nav id="nav" class="nav-bar">
+    <a href="https://viet-doan.com" class="nav-name">Viet Doan</a>
+    <ul class="nav-bookmarks">
+      <li><a href="#About">About</a>
+      <li><a href="#Experiences">Experiences</a></li>
+      <li><a href="#Education">Education</a></li>
+      <li><a href="#Awards">Awards</a></li>
+      <li><a href="https://github.com/viet-doan" target="_blank"><i class="fa fa-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/viet-doan-vqd/" target="_blank"><i class="fa fa-linkedin"></i></a></li> 
+    </ul>
+    <a href="#Contact" class="nav-contact">Contact</a>
+    
+    <!-- Menu (hidden on full desktop)  -->
+    <div class="nav-menu">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <!-- Menu Displays  -->
+    <div class="dropdown-menu">
+      <li><a href="#About">About</a>
+      <li><a href="#Experiences">Experiences</a></li>
+      <li><a href="#Education">Education</a></li>
+      <li><a href="#Awards">Awards</a></li>
+      <li><a href="#Contact">Contact</a></li>
+      <li><a href="https://github.com/viet-doan" target="_blank"><i class="fa fa-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/viet-doan-vqd/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+    </div>
+
+
+  </nav>
 </header>
+
+<script>
+  const toggleBtn = document.querySelector('.nav-menu')
+  const toggleBtnIcon = document.querySelector('.nav-menu i')
+  const dropDownMenu = document.querySelector('.dropdown-menu')
+
+  toggleBtn.onclick = function() {
+    dropDownMenu.classList.toggle('open')
+    const isOpen = dropDownMenu.classList.contains('open')
+    
+    toggleBtnIcon.classList = isOpen
+    ? "fa-solid fa-xmark"
+    : "fa-solid fa-bars"
+  }
+</script>
+
+
+
+
 
 
 <!-- About Section -->
