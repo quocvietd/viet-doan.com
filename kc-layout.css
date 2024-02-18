@@ -1,12 +1,12 @@
 .column {
     float: left;
-    padding-left: 30em;
+    padding-left: 27em;
     padding-top: 10em;
   }
 
 .column-right {
     float: left;
-    padding-right: 24em;
+    padding-right: 14em;
 }
   
   .clearfix::after {
