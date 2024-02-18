@@ -13,12 +13,12 @@ a.name{
 }
 
 a.body{
-  color:#181818;
+  color: #00b2e4;
   font-family: Helvetica;
   font-style: normal;
   font-weight: 400;
   text-decoration: underline;
-}
+} 
 
 h1.name{
   color:#181818;
