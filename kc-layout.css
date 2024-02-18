@@ -15,7 +15,7 @@
     display: table;
   }
   
-  .menu {
+  .btn-menu {
     width: 45%;
   }
   
@@ -23,12 +23,12 @@
     width: 55%;
   }
   
-  .menu ul {
+  .btn-menu ul {
     margin: 0;
     padding: 0;
   }
   
-  .menu li {
+  .btn-menu li {
     list-style-type: none;
     margin-bottom: 8px;
   }
