@@ -334,7 +334,7 @@ button.kc-button {
     }
 
       .wrapper.first {
-        padding-top: 4em;
+        padding-top: 3em;
       }
 
   /* Articles */
@@ -355,7 +355,12 @@ button.kc-button {
 
       #top p {
         font-size: 1.5em;
-        line-height: 1.75em;
+        line-height: 1.5em;
+        
+        color: #888;
+        margin-bottom: 2px;
+        font-family: Helvetica;
+        font-weight: 500;
       }
 
     #contact footer {
