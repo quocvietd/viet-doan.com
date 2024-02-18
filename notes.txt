@@ -1,0 +1,31 @@
+
+- Links in body paragraphs
+color: #00b2e4;
+
+- Navigation Background
+color: #282828;
+
+- Navigation Hover + Dropdown Menu Background:
+background-color: #3a3a3a;
+
+- Dropdown Menu - NavLink Background Hover:
+background-color: #585858
+
+- Nav-Contact Hover:
+background-color: #007494;
+
+
+- Title Name:
+color: #181818;
+
+- Section Headings (h1, h2, h6.V):
+color: #303030;
+
+- KC - Buttons:
+background-color: #282828;  /* General Color */
+#242424;                    /* Border Color */
+background-color: #b8b8b8   /* Hover Color*/
+
+
+- General Text Colour:
+color: #999;

@@ -38,13 +38,6 @@ h1.V {
   font-weight: 600;
 }
 
-pre.about {
-  width: 70%;
-  margin-left: 80px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-}
-
 h2.about {
   color:#111111;
   margin-left: 100px;
@@ -76,23 +69,14 @@ h6.V {
   font-weight: 400;
 }
 
-  .text.topbar {
-    /*background-color: #303030;*/
-    color: white;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    
-  }
-
     .text.body {
       font-size: 14px;
     }
-
+/* 
     .text.about {
       width: 100%;
       text-align: left;
-    }
+    } */
 /**********************************************************/
 /**********************************************************/
 
@@ -103,24 +87,23 @@ h6.V {
   float: left;
 }
 
-div.aboutbox{
+/* div.aboutbox{
   width: 100%;
   padding-top:10px;
   margin-top:10px;
-  color: #111111;
   font-family: Helvetica;
   font-size:12px; 
   padding: 0px;
-}
+} */
 
-h2.abouttitle{
+/* h2.abouttitle{
   width: 100%;
   padding-top:10px;
   margin-top:10px;
-  color: #111111;
+  color: #303030;
   font-family: Helvetica;
   padding: 0px;
-}
+} */
 
 ul.subsection {
   justify-content: center;
@@ -138,8 +121,8 @@ li.subsection2 {
   width: 50em;
 }
 
-footer {
-  color:azure;
+/* footer {
+  color:#fff;
   margin: 0px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -150,4 +133,4 @@ footer {
   background-color: #303030;
 	color: #999;
 	text-shadow: -1px -1px 0px #181818;
-}
+} */
