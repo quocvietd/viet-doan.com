@@ -1,12 +1,20 @@
 /*********************************************************/
 /*                      Koi Corner                       */
 /*********************************************************/
+.kc-button-placement {
+  padding-top: 1em;
+}
+
 button.kc-button {
   background-color: #282828;
   color: #fff;
+  font-weight: 500;
+  font-family: "Montserrat";
+
   border-radius: 48px;
   box-shadow: 4 4px 5px #242424;
   margin: 0.5em;
+  padding: 0.8em 1.4em;
 }
 
   button.kc-button:hover {
@@ -40,12 +48,16 @@ button.kc-button {
     display: inline-block;
   } /* Not In Use*/
 
-  /*
+  
   iframe.kc-frame {
-    position: absolute;
-    left: 36%;
-  } /* Not In Use*/
-  */
+    border: none;
+    height: 592px;
+    width: 380px;
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+  } 
+  
 
   .kc-container {
     text-align: center;

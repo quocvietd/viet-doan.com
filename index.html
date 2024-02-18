@@ -103,7 +103,7 @@ skills and exited to apply my knowledge within my work.
 <div class="wrapper style2" id="Experiences">
   <h2 class="V" >Experiences</h2>
   <h6 class="V"><a href="https://brunettioro.com.au/" target="_blank">Brunetti Oro</a> [Jan, 2022 - Sep, 2023]</h6>
-    <ul class="text body" style="list-style-type:circle; margin-left: 120px; display: inline-block;">
+    <ul class="text body" class="kc-frame">
         <li> Managed to excel in the art of coffee preparation, crafting and serving a diverse range of premium coffee beverages, showcasing a deep understanding of brewing and presentation techniques</li>
         <li> Manage inventory of alcoholic beverages and general supplies, palcing orders as necessary to ensure adequate stock levels and optimal customer satisfaction</li>
         <li> Analysed customer's need and concerns, and responded promptly with empathy and professionalism to ensure a positive experience</li>
@@ -146,16 +146,14 @@ skills and exited to apply my knowledge within my work.
     <a href="koicorner.html" target="_self">Click Here to View Gallery</a>
 
 
-<!-- Buttons for Koi Corner Posters -->
-  <div>
+<!-- Buttons and Iframes -->
     <br>
-  
-    <div style="text-align: center;">
-      <iframe src="documents/KC_Poster.pdf" loading="eager" name="iframe_kc" style="border: none; height: 592px; width: 380px; max-width: 100%; max-height: 100%; display: inline-block;" title="Koi Corner"></iframe>
+    <br>
+    <div>
+      <iframe src="documents/KC_Poster.pdf" loading="eager" name="iframe_kc" class="kc-frame" title="Koi Corner"></iframe>
     </div>
     
-    <br>
-    <div style="text-align:center;">
+    <div class="kc-button-placement">
       <button class="kc-button" onclick="changeSrc('documents/KC_Poster.pdf')">Advertisement Poster</button>
       <button class="kc-button" onclick="changeSrc('documents/KC_Poster_Structures.pdf')">Bottle Structures</button>
       <button class="kc-button" onclick="changeSrc('documents/KC_Poster_Components.pdf')">Bottle Components</button>
@@ -163,9 +161,8 @@ skills and exited to apply my knowledge within my work.
       <button class="kc-button" onclick="changeSrc('documents/KC_LogoGuidelines.pdf')">Logo Guidelines</button>
     </div>
     <br>
-    <br>
-    </div>
   </div>
+
 
 
 
@@ -174,7 +171,7 @@ skills and exited to apply my knowledge within my work.
 
 
   <!--  Koi Corner Posters  -->
-<!--   
+  
   <div class="wrapper style2" id="Awards">
     <h2 class="V">Awards</h2>
     <h6 class="V"><a href="https://museumsvictoria.com.au/melbournemuseum/learning/top-designs-2021/" target="_blank"> Top Design 2021</a></h6>
@@ -183,10 +180,9 @@ skills and exited to apply my knowledge within my work.
           <li class="subsection2"> Showcasing work during the VCE Sesason of Excellence in the Melbourne Museum </li>
       </ul>
       <a href="koicorner.html" target="_self">Click Here to View Gallery</a>
-  </div>
+  <br>
   
-  <div class="clearfix">
-    <div class="column menu">
+    <div class="column btn-menu">
       <li><button class="kc-button2" onclick="changeLink('documents/KC_Poster.pdf')">Advertisement Poster</button></li>
       <li><button class="kc-button2" onclick="changeLink('documents/KC_Poster_Structures.pdf')">Bottle Structures</button></li>
       <li><button class="kc-button2" onclick="changeLink('documents/KC_Poster_Components.pdf')">Bottle Components</button></li>
@@ -204,7 +200,7 @@ skills and exited to apply my knowledge within my work.
         document.getElementsByName('iframe_kc2')[0].src = src;
     }
   </script> 
--->
+
  
   
 
