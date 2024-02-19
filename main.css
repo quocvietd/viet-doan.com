@@ -1,3 +1,7 @@
+/* Montserrat Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 /*********************************************************/
 /*                      Koi Corner                       */
 /*********************************************************/
@@ -9,7 +13,7 @@ button.kc-button {
   background-color: #282828;
   color: #fff;
   font-weight: 500;
-  font-family: "Montserrat";
+  font-family: "Montserrat", Helvetica, sans-serif;
 
   border-radius: 48px;
   box-shadow: 4 4px 5px #242424;
