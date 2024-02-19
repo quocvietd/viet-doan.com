@@ -4,18 +4,24 @@
 /**********************************************************/
 /*                         Edited                         */
 /**********************************************************/
+
+* {
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
 a.name{
   color:#181818;
   text-align: center;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif; */
   font-size: 54px;
   font-weight: 600;
 }
 
 a.body{
   color: #00b2e4;
-  font-family: Helvetica;
+  /* font-family: Helvetica, Arial, sans-serif; */
   font-style: normal;
   font-weight: 400;
   text-decoration: underline;
@@ -25,7 +31,7 @@ h1.name{
   color:#181818;
   text-align: center;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif; */
   font-size: 54px;
   font-weight: 600;
 }
@@ -34,7 +40,6 @@ h1.V {
   color: #303030;
   margin-left: 80px;
   margin-bottom: 2px;
-  font-family: Helvetica;
   font-size: 36px;
   font-weight: 600;
 }
@@ -42,7 +47,6 @@ h1.V {
 h2.about {
   color:#111111;
   margin-left: 100px;
-  font-family: Arial;
   font-size: 48px;
   font-weight: 500;
 }
@@ -50,7 +54,7 @@ h2.about {
 h2.V {
   color: #303030;
   margin-bottom: 2px;
-  font-family: Helvetica;
+  font-family: serif;
   font-size: 32px;
   font-weight: 600;
 }
@@ -59,13 +63,11 @@ h2.V {
 h6.V {
   color: #303030;
   margin-bottom: 2px;
-  font-family: Helvetica;
   font-size: 16px;
   font-weight: 500;
 }
 .text {
   color:#999;
-  font-family: Helvetica;
   font-style: normal;
   font-weight: 400;
 }
