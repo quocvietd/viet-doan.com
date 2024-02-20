@@ -50,6 +50,21 @@ header {
     margin-right: -1em; /* Preventing Jumps when hovered */
     border-radius: 0.5em;
   }
+  /* #nav .nav-bookmarks a:active {
+    background-color: #3a3a3a;
+    padding: 0.4em 1em;
+    margin-left: -1em;
+    margin-right: -1em;
+    border-radius: 0.5em;
+  }
+
+  .active {
+    background-color: #3a3a3a;
+    padding: 0.4em 1em;
+    margin-left: -1em;
+    margin-right: -1em;
+    border-radius: 0.5em;
+  } */
 
   /* Contact Button  */
   #nav .nav-contact {
