@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+footer {
+    position: static;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    background-color: #282828;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .footer-box {
+    flex-basis: 100%;
+    padding: 1em 2em 2em 2em;
+}
+
+/* Footer's Text */
+#Contact h2 {
+    color: #fff;
+    margin-bottom: 6px;
+    font-size: 38px;
+    font-weight: 650;
+}
+
+
