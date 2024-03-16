@@ -174,7 +174,7 @@ button.kc-button {
 
 .wrapper {
   background-color: #E0D7C8;
-  background-image:url('documents/Textured Background.png');
+  background-image:url('documents/texture0.png');
   box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 }
     .wrapper.first {
@@ -182,7 +182,7 @@ button.kc-button {
         }
 
         .wrapper.style1 {
-            background-image: none;
+            background-image: url('/documents/texture0.png');
             background-color: #fff;
         }
 
@@ -290,8 +290,16 @@ button.kc-button {
 
   /* Box */
 
-    .box {
+    /* .box {
       padding: 2em;
+    } */
+    .box {
+      /* background-color: #fafafa; */
+      width: 54em;
+      margin: auto;
+      margin-top: 2em;
+      padding: 1em 4em;
+      /* box-shadow: 1em 1em 2em #f4f4f4, -1em -1em 2em #f4f4f4; */
     }
 
       .box.style1 {
