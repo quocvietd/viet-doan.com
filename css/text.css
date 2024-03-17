@@ -4,14 +4,21 @@
 /**********************************************************/
 /*                         Edited                         */
 /**********************************************************/
+:root {
+  --black: #181818;
+  --blue: #00b2e4;
+  --grey: #303030;
+  --darkGrey: #343434;
+  --lightGrey: #999;
 
+}
 * {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
 
 }
 
 a.name{
-  color:#181818;
+  color: var(--black);
   text-align: center;
   text-decoration: none;
   /* font-family: Helvetica, Arial, sans-serif; */
@@ -20,7 +27,7 @@ a.name{
 }
 
 a.body{
-  color: #00b2e4;
+  color: var(--blue);
   /* font-family: Helvetica, Arial, sans-serif; */
   font-style: normal;
   font-weight: 400;
@@ -28,7 +35,7 @@ a.body{
 } 
 
 h1.name{
-  color:#181818;
+  color: var(--black);
   text-align: center;
   text-decoration: none;
   /* font-family: Helvetica, Arial, sans-serif; */
@@ -37,7 +44,7 @@ h1.name{
 }
 
 h1.V {
-  color: #343434;
+  color: var(--darkGrey);
   margin-left: 80px;
   margin-bottom: 2px;
   font-size: 36px;
@@ -52,7 +59,7 @@ h1.V {
 } */
 
 h2.V {
-  color: #343434;
+  color: var(--darkGrey);
   margin-bottom: 2px;
   font-size: 38px;
   font-weight: 650;
@@ -60,14 +67,14 @@ h2.V {
 
 
 h6.main_name {
-  color: #343434;
+  color: var(--darkGrey);
   margin-bottom: 2px;
   font-size: 24px;
   font-weight: 600;
 }
 
 h6.V a{
-  color: #343434;
+  color: var(--darkGrey);
   margin-bottom: 2px;
   font-size: 24px;
   font-weight: 100;
@@ -75,7 +82,7 @@ h6.V a{
 }
 
 .text {
-  color:#999;
+  color:var(--lightGrey);
   font-style: normal;
   font-weight: 400;
   text-align: left;
@@ -87,7 +94,7 @@ h6.V a{
     }
 
     .text.date {
-      color: #303030;
+      color: var(--grey);
       font-size: 20px;
     }
 /* 
