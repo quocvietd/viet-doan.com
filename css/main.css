@@ -10,8 +10,10 @@
 }
 
 button.kc-button {
-  background-color: #282828;
-  color: #fff;
+  /* background-color: #282828;
+  color: #fff; */
+  background-color: var(--barTopBot);
+  color: var(--white);
   font-weight: 500;
   font-family: "Montserrat", Helvetica, sans-serif;
 
@@ -22,9 +24,12 @@ button.kc-button {
 }
 
   button.kc-button:hover {
-    background-color: #b8b8b8;
+    /* background-color: #b8b8b8;
     color: #242424;
-    box-shadow: 4 4px 5px #b8b8b8;
+    box-shadow: 4 4px 5px #b8b8b8; */
+    background-color: var(--btnHoBG);
+    color: var(--btnHoTxt);
+    box-shadow: 4 4px 5px var(--btnHoBG);
     cursor: pointer;
   }
 
@@ -175,7 +180,8 @@ button.kc-button {
 /*********************************************************/
 
 .wrapper {
-  background-color: #E0D7C8;
+  /* background-color: #E0D7C8; */
+  background-color: var(--wrapperBG);
   background-image:url('documents/texture0.png');
   box-shadow: inset 0px 10px 12px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 }
@@ -185,22 +191,27 @@ button.kc-button {
 
         .wrapper.style1 {
             background-image: url('/documents/texture0.png');
-            background-color: #fff;
+            /* background-color: #fff; */
+            background-color: var(--white);
         }
 
         .wrapper.style2 {
-            background-color: #fafafa;
+            /* background-color: #fafafa; */
+            background-color: var(--wrapper2);
             /*text-shadow: 1px 1px 0px #fff;*/
         }
 
         .wrapper.style3 {
-            background-color: #f4f4f4;
+            /* background-color: #f4f4f4; */
+            background-color: var(--wrapper3);
             text-shadow: 1px 1px 0px #fff;
         }
 
         .wrapper.style4 {
-            background-color: #303030;
-            color: #999;
+            /* background-color: #303030;
+            color: #999; */
+            background-color: var(--wrapper4);
+            color: var(--textBody);
             text-shadow: -1px -1px 0px #181818;
         }
     
@@ -296,14 +307,16 @@ button.kc-button {
       padding: 2em;
     } */
     .box {
-      background-color: #ffffff;
+      /* background-color: #ffffff; */
+      background-color: var(--white);
       width: 54em;
       margin: auto;
       margin-top: 2em;
       padding: 1em 4em 1.6em 4em;
-      border: 1px solid #dedede;
+      /* border: 1px solid #dedede; */
+      border: 1px solid var(--boxBorder);
       /* box-shadow: 1em 1em 2em #dedede, -1em -1em 2em #dedede;  */
-      box-shadow: 4px 4px 4px #dedede, -1px -1px px #dedede; 
+      box-shadow: 4px 4px 4px var(--boxBorder), -1px -1px px var(--boxBorder); 
     }
 
       .box.style1 {
@@ -357,7 +370,8 @@ button.kc-button {
         font-size: 1.5em;
         line-height: 1.5em;
         
-        color: #888;
+        /* color: #777; */
+        color: var(--textBody);
         margin-bottom: 2px;
         font-family: Helvetica, Arial, sans-serif;
         font-weight: 500;

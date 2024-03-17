@@ -10,7 +10,8 @@ footer {
     display: flex;
     bottom: 0;
     width: 100%;
-    background-color: #282828;
+    /* background-color: #282828; */
+    background-color: var(--barTopBot); 
 }
 
 .main-content {
@@ -24,7 +25,8 @@ footer {
 
 /* Footer's Text */
 #Contact h2 {
-    color: #fff;
+    /* color: #fff; */
+    color: var(--white);
     margin-bottom: 6px;
     font-size: 38px;
     font-weight: 650;

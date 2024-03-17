@@ -4,62 +4,49 @@
 /**********************************************************/
 /*                         Edited                         */
 /**********************************************************/
-:root {
-  --black: #181818;
-  --blue: #00b2e4;
-  --grey: #303030;
-  --darkGrey: #343434;
-  --lightGrey: #999;
-
-}
 * {
   font-family: "Montserrat", Helvetica, Arial, sans-serif;
 
 }
 
 a.name{
-  color: var(--black);
+  /* color: #181818; */
+  color: var(--mainName);
   text-align: center;
   text-decoration: none;
-  /* font-family: Helvetica, Arial, sans-serif; */
   font-size: 54px;
   font-weight: 600;
 }
 
 a.body{
-  color: var(--blue);
-  /* font-family: Helvetica, Arial, sans-serif; */
+  /* color: #00b2e4; */
+  color: var(--blueLink);
   font-style: normal;
   font-weight: 400;
   text-decoration: underline;
 } 
 
 h1.name{
-  color: var(--black);
+  /* color: #181818; */
+  color: var(--mainName);
   text-align: center;
   text-decoration: none;
-  /* font-family: Helvetica, Arial, sans-serif; */
   font-size: 54px;
   font-weight: 600;
 }
 
 h1.V {
-  color: var(--darkGrey);
+  /* color: #343434; */
+  color: var(--greyHeading);
   margin-left: 80px;
   margin-bottom: 2px;
   font-size: 36px;
   font-weight: 600;
 }
 
-/* h2.about {
-  color:#111111;
-  margin-left: 100px;
-  font-size: 48px;
-  font-weight: 600;
-} */
-
 h2.V {
-  color: var(--darkGrey);
+  /* color: #343434; */
+  color: var(--greyHeading);
   margin-bottom: 2px;
   font-size: 38px;
   font-weight: 650;
@@ -67,14 +54,16 @@ h2.V {
 
 
 h6.main_name {
-  color: var(--darkGrey);
+  /* color: #343434; */
+  color: var(--greyHeading);
   margin-bottom: 2px;
   font-size: 24px;
   font-weight: 600;
 }
 
 h6.V a{
-  color: var(--darkGrey);
+  /* color: #343434; */
+  color: var(--greyHeading);
   margin-bottom: 2px;
   font-size: 24px;
   font-weight: 100;
@@ -82,7 +71,8 @@ h6.V a{
 }
 
 .text {
-  color:var(--lightGrey);
+  /* color: #777; */
+  color: var(--textBody);
   font-style: normal;
   font-weight: 400;
   text-align: left;
@@ -94,7 +84,8 @@ h6.V a{
     }
 
     .text.date {
-      color: var(--grey);
+      /* color: #303030; */
+      color: var(--textDate);
       font-size: 20px;
     }
 /* 

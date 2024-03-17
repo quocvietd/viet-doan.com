@@ -1,0 +1,67 @@
+:root {
+
+    /* text.css */
+    --mainName: #181818; /* main centered title name */
+    --greyHeading: #343434; /* h2.V h6.main_name h6.V(a)  */
+    --textDate:  #303030; /* Date next to Jobs/Experiences Date */
+    --textBody: #777; /* body text in box */
+
+    /* slideshow.css (no dark mode)*/
+    /* not needed */
+
+    /* navigation.css */
+    --barTopBot: #282828;
+    --navContactBG: #007494;
+    --navBtnBG: #3a3a3a;
+    --menuBG: #585858;
+
+    /* main.css */
+    --btnHoBG: #b8b8b8;
+    --btnHoTxt: #242424;
+    --wrapperBG: #E0D7C8;
+    --wrapper2: #fafafa;
+    --wrapper3: #f4f4f4;
+    --wrapper4: #303030;
+    --boxBorder: #dedede;
+
+    /* kc-layout.css */
+    --kcBtnSha: #242424;
+    --kcBtnHo: #b8b8b8;
+
+    /* General */
+    --blueLink: #00b2e4;
+    --DMblueLink: #002e3a;
+    --white: #fff;
+    --black: #000000;
+
+
+
+    /* Dark Mode*/
+    /* text.css */
+    --DMmainName: #e7e7e7; /* main centered title name */
+    --DMgreyHeading: #cbcbcb; /* h2.V h6.main_name h6.V(a)  */
+    --DMtextDate:  #303030; /* Date next to Jobs/Experiences Date */
+    --DMtextBody: #cfcfcf; /* body text in box */
+
+    /* slideshow.css (no dark mode)*/
+    /* not needed */
+
+    /* navigation.css */
+    --DMbarTopBot: #d7d7d7;
+    --DMnavContactBG: #00b3e5;
+    --DMnavBtnBG: #c5c5c5;
+    --DMmenuBG: #a7a7a7;
+
+    /* main.css */
+    --DMbtnHoBG: #474747;
+    --DMbtnHoTxt: #dbdbdb;
+    --DMwrapperBG: #1f2837;
+    --DMwrapper2: #050505;
+    --DMwrapper3: #0b0b0b;
+    --DMwrapper4: #cfcfcf;
+    --DMboxBorder: #212121;
+
+    /* kc-layout.css */
+    --DMkcBtnSha: #dbdbdb;
+    --DMkcBtnHo: #474747;
+}
