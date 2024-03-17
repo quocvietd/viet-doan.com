@@ -16,8 +16,11 @@
   <link rel="stylesheet" type="text/css" href="css/footer.css">
   <link rel="stylesheet" type="text/css" href="css/kc-layout.css">
 
+  <script type="text/JavaScript" src="js/nav_menu.js"></script>
   <script type="text/JavaScript" src="js/koicorner.js"></script>
   <script type="text/JavaScript" src="js/navigation.js"></script>
+  <script type="text/JavaScript" src="js/darkmode.js"></script>
+
 
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
@@ -52,7 +55,7 @@
     
     <!-- Menu (hidden on full desktop)  -->
     <div class="nav-menu">
-      <i class="fa-solid fa-bars"></i>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
     </div>
 
     <!-- Menu Displays  -->
@@ -69,26 +72,7 @@
 
   </nav>
 </header>
-
-<script>
-  const toggleBtn = document.querySelector('.nav-menu')
-  const toggleBtnIcon = document.querySelector('.nav-menu i')
-  const dropDownMenu = document.querySelector('.dropdown-menu')
-
-  toggleBtn.onclick = function() {
-    dropDownMenu.classList.toggle('open')
-    const isOpen = dropDownMenu.classList.contains('open')
-    
-    toggleBtnIcon.classList = isOpen
-    ? "fa-solid fa-xmark"
-    : "fa-solid fa-bars"
-  }
-</script>
-
-
-
-
-
+<!-- <button onclick="switchDarkMode()">DarkMode</button> -->
 
 <!-- About Section -->
 <section class="wrapper style1 first">
