@@ -19,7 +19,7 @@ background-color: #007494;
 color: #181818;
 
 - Section Headings (h1, h2, h6.V):
-color: #303030;
+color: #343434;
 
 - KC - Buttons:
 background-color: #282828;  /* General Color */

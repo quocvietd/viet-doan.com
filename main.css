@@ -175,7 +175,7 @@ button.kc-button {
 .wrapper {
   background-color: #E0D7C8;
   background-image:url('documents/texture0.png');
-  box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 10px 12px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 }
     .wrapper.first {
             box-shadow: none;
@@ -294,12 +294,14 @@ button.kc-button {
       padding: 2em;
     } */
     .box {
-      /* background-color: #fafafa; */
+      background-color: #ffffff;
       width: 54em;
       margin: auto;
       margin-top: 2em;
-      padding: 1em 4em;
-      /* box-shadow: 1em 1em 2em #f4f4f4, -1em -1em 2em #f4f4f4; */
+      padding: 1em 4em 1.6em 4em;
+      border: 1px solid #dedede;
+      /* box-shadow: 1em 1em 2em #dedede, -1em -1em 2em #dedede;  */
+      box-shadow: 4px 4px 4px #dedede, -1px -1px px #dedede; 
     }
 
       .box.style1 {

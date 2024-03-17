@@ -37,7 +37,7 @@ h1.name{
 }
 
 h1.V {
-  color: #303030;
+  color: #343434;
   margin-left: 80px;
   margin-bottom: 2px;
   font-size: 36px;
@@ -52,22 +52,22 @@ h1.V {
 } */
 
 h2.V {
-  color: #303030;
+  color: #343434;
   margin-bottom: 2px;
   font-size: 38px;
   font-weight: 650;
 }
 
 
-h6.V {
-  color: #303030;
+h6.main_name {
+  color: #343434;
   margin-bottom: 2px;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 h6.V a{
-  color: #303030;
+  color: #343434;
   margin-bottom: 2px;
   font-size: 24px;
   font-weight: 100;
@@ -84,6 +84,11 @@ h6.V a{
     .text.body {
       font-size: 18px;
       line-height: 28px;
+    }
+
+    .text.date {
+      color: #303030;
+      font-size: 20px;
     }
 /* 
     .text.about {
