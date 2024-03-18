@@ -72,11 +72,12 @@ header {
 
   /* Contact Button  */
   #nav .nav-contact {
-    margin-right: 3em; /* Spaces from the left from the Name on the bar */
+    margin-right: 1em; /* Spaces from the left from the Name on the bar */
     padding: 0.4em 1em;
     border-radius: 1em;
     /* background: #3a3a3a; */
     background: var(--navBtnBG);
+    background-color: none;
 
     text-decoration: none;
     /* color: #fff; */
@@ -89,6 +90,22 @@ header {
   #nav .nav-contact:hover {
     /* background: #007494; */
     background: var(--navContactBG);
+  }
+
+  #nav .btnDM {
+    margin-right: 1em;
+    padding: 0.4em 0.6em;
+    border-radius: 1em;
+    border: 0px;
+    /* background: #3a3a3a; */
+    background: none;
+    /* color: #fff; */
+    color: var(--white);
+    overflow: hidden;
+  }
+
+  #nav .btnDM:hover {
+    background: var(--kcBtnHo)
   }
 
 /* General Bar */
